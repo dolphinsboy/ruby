@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+require 'pry'
 
 class Point
     attr_accessor :x, :y
@@ -36,4 +37,7 @@ p0.swap(p1)
 
 p0.p_point()
 p1.p_point()
+
+p p0.x
+p0.x = 1
 
